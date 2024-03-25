@@ -31,7 +31,6 @@ class Configuration {
             it.setPasswordEncoder(encoder())
         }
 
-
     @Bean
     fun authenticationManager(config: AuthenticationConfiguration): AuthenticationManager = config.authenticationManager
 }
